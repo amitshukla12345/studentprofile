@@ -1,0 +1,18 @@
+/* Base styles for the image */
+.image-container {
+    width: 100%;
+    text-align: center;
+}
+
+.responsive-image {
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+
+/* Media query for screens smaller than 700px */
+@media (max-width: 700px) {
+    .responsive-image {
+        content: url('lake.jpg'); /* Change to the small image */
+    }
+}
