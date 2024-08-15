@@ -1,0 +1,25 @@
+* Basic styling for the image container */
+.image-container {
+    text-align: center;
+    margin: 20px;
+}
+
+/* Ensure the image scales responsively */
+#responsive-image {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Media query for screen widths 700px and above */
+@media (min-width: 700px) {
+    #responsive-image {
+        content: url("images/lake.jpg"); /* Replace with your large image URL */
+    }
+}
+
+/* Media query for screen widths below 700px */
+@media (max-width: 699px) {
+    #responsive-image {
+        content: url("images/sun.webp"); /* Replace with your small image URL */
+    }
+}

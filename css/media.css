@@ -12,7 +12,9 @@
 
 /* Media query for screens smaller than 700px */
 @media (max-width: 700px) {
-    .responsive-image {
-        content: url('lake.jpg'); /* Change to the small image */
-    }
+   body{
+    background-image:url(/image/sun.webp)
+   }
+
+    img{visibility: hidden;}
 }
